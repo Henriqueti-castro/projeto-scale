@@ -8,8 +8,9 @@
     --cor1: #ffffff;
     --cor2: #000000;
     --cor3: #008000;
-    --cor4: #808080;
+    --cor4: #8080808b;
     --cor5: #252525;
+    --cor6: #4c7d4c;
 
     --font-momo: 'Momo Trust Display', cursive;
     --font-goth: 'Science Gothic', cursive;
@@ -75,7 +76,7 @@ nav.navegacao > a {
 
 nav.navegacao > a:hover {
     color: var(--cor1);
-    background-color: var(--cor4);
+    background-color: var(--cor6);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
