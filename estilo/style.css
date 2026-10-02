@@ -22,7 +22,14 @@
     box-sizing: border-box;
 }
 
+body {
+    position: relative;
+}
+
 header.topo {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     background-color: var(--cor1);
     box-shadow: inset 0px -1px 0px var(--cor4);
     display: flex;
@@ -53,6 +60,7 @@ h2.scalebank {
 
 header.topo > nav.navegacao {
     display: flex;
+    gap: 10px;
     
 }
 
@@ -72,12 +80,17 @@ nav.navegacao > a:hover {
     border-top-right-radius: 10px;
 }
 
-nav.navegacao > a:hover::after {
+nav.navegacao > a::after {
     position: absolute;
     content: '';
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 0;
     height: 3px;
     background-color: var(--cor5);
+    transition: width 0.3s ease;
+}
+
+nav.navegacao > a:hover::after {
+    width: 100%;
 }
