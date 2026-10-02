@@ -50,3 +50,9 @@ h2.scalebank {
     font-weight: normal;
     text-shadow: 1px 0px 1px var(--cor5);
 }
+
+header.topo > nav.navegacao {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
