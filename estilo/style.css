@@ -95,3 +95,25 @@ nav.navegacao > a::after {
 nav.navegacao > a:hover::after {
     width: 100%;
 }
+
+header.topo div#entrar {
+    background-color: black;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    margin-left: 50px;
+    width: 100px;
+    padding: 8px;
+    transition: background-color 0.2s ease;
+}
+
+header.topo div#entrar:hover {
+    background-color: var(--cor5);
+}
+
+div#entrar a {
+    color: var(--cor1);
+    font-family: var(--font-arial);
+    font-weight: bold;
+    text-decoration: none;
+}
