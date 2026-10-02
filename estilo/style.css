@@ -33,8 +33,20 @@ header.topo {
     padding-right: 150px;
 }
 
-header.topo > .marca {
+header.topo > div.marca {
     display: flex;
     align-items: center;
     margin-right: auto;
-} 
+}
+
+h2.scalebank > span.scale {
+    color: var(--cor3);
+}
+
+h2.scalebank {
+    color: var(--cor2);
+    font-family: var(--font-momo);
+    font-size: 1.4em;
+    font-weight: normal;
+    text-shadow: 1px 0px 1px var(--cor5);
+}
