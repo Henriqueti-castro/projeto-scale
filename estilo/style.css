@@ -169,12 +169,13 @@ section.status {
 
 section.status div.dados {
     color: var(--cor1);
-    font-family: var(--font-goth);
     text-align: center;
+    font-family: var(--font-arial);
     padding-left: 50px;
     padding-right: 50px;
 }
 
-div.dados h2 {
-    
+section.status h2 {
+    font-size: 2em;
+    padding-bottom: 10px;
 }
