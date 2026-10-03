@@ -227,7 +227,10 @@ article.card-mercado a:hover {
 
 aside.detalhes {
     background-color: var(--cor4);
-    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
     padding: 50px;
 }
 
@@ -244,8 +247,8 @@ section.exibicao div#card-marca {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    height: 80%;
+    width: 30vw;
+    height: 40vh;
 }
 
 div#card-marca span.scale2 {
@@ -334,3 +337,6 @@ nav.rodape a {
 nav.rodape a:hover {
     color: var(--cor4);
 }
+
+/* estilo dashboard */
+
