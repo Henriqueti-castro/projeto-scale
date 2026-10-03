@@ -27,6 +27,10 @@ body {
     position: relative;
 }
 
+html, body {
+    height: 100vh;
+}
+
 header.topo {
     position: sticky;
     top: 0;
@@ -76,7 +80,7 @@ nav.navegacao > a {
 
 nav.navegacao > a:hover {
     color: var(--cor1);
-    background-color: var(--cor6);
+    background-color: var(--cor4);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -118,13 +122,25 @@ div#entrar a {
     text-decoration: none;
 }
 
+main {
+    height: 100%;
+    padding-top: 10vh;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+}
+
+main.imagem {
+    background-color: var(--cor4);
+}
+
+main#principal {
+    background: url('../imagens/img_atras/scalebank_negocio.jpg') center top no-repeat;
+    background-size: cover;
+}
+
 section.propaganda {
-    background-color: var(--cor3);
     width: 50%;
-    min-height: 300px;
-    padding-top: 80px;
-    padding-left: 50px;
-    padding-bottom: 20px;
+    height: 300px;
 }
 
 section.propaganda h1 {
@@ -133,4 +149,12 @@ section.propaganda h1 {
     font-size: 3.5em;
     width: 500px;
     margin-bottom: 20px;
+}
+
+section.propaganda p {
+    color: var(--cor1);
+    font-family: var(--font-arial);
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.5em;
 }
