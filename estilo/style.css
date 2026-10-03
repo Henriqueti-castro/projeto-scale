@@ -275,6 +275,11 @@ article.ferramentas nav a {
     text-decoration: none;
 }
 
+article.ferramentas nav a:hover {
+    color: var(--cor1);
+    text-decoration: underline;
+}
+
 footer {
     background-color: var(--cor1);
     display: flex;
