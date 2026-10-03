@@ -10,6 +10,7 @@
     --cor3: #008000;
     --cor4: #808080;
     --cor5: #252525;
+    --cor6: #002e00;
 
     --font-momo: 'Momo Trust Display', cursive;
     --font-goth: 'Science Gothic', cursive;
@@ -206,9 +207,8 @@ article.card-mercado h2 {
 
 article.card-mercado a {
     color: var(--cor1);
-    background-color: var(--cor3);
+    background-color: var(--cor6);
     font-family: var(--font-arial);
-    font-size: 0.8em;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -217,6 +217,12 @@ article.card-mercado a {
     border-radius: 5px;
     margin-top: 20px;
     padding: 15px;
+    transition: transform 0.2s ease;
+}
+
+article.card-mercado a:hover {
+    background-color: var(--cor3);
+    transform: translateY(-5%);
 }
 
 aside.detalhes {
