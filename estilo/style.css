@@ -183,7 +183,61 @@ section.status h2 {
 }
 
 section.tipo {
+    color: var(--cor1);
+    font-family: var(--font-arial);
+    font-weight: bold;
     background-color: var(--cor5);
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+
+}
+
+section.tipo article#afiliados {
+    background-color: var(--cor4);
+    width: 350px;
+    border: 1px solid var(--cor2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+article#afiliados div.repre {
+    background-color: var(--cor1);
+    border: 1px solid var(--cor4);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+article#afiliados h2 {
+    color: var(--cor1);
+    font-family: var(--font-arial);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+section.tipo article#vendedores {
+    background-color: var(--cor4);
+    width: 350px;
+    border: 1px solid var(--cor2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+article#vendedores div.repre {
+    background-color: var(--cor1);
+    border: 1px solid var(--cor4);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+article#vendedores h2 {
+    color: var(--cor1);
+    font-family: var(--font-arial);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
