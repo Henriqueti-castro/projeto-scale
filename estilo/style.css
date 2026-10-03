@@ -160,17 +160,20 @@ section.propaganda p {
 }
 
 section.status {
-    background-color: var(--cor5);
+    background-color: var(--cor2);
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 15px;
-    padding: 20px;
+    padding: 50px;
 }
 
 section.status div.dados {
     color: var(--cor1);
     text-align: center;
     font-family: var(--font-arial);
+    font-weight: bold;
+    border-right: 1px solid var(--cor1);
     padding-left: 50px;
     padding-right: 50px;
 }
