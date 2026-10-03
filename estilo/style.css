@@ -175,11 +175,13 @@ section.tipo {
     justify-content: center;
     gap: 50px;
     padding: 50px;
-
 }
 
 section.tipo article.card-mercado {
     background-color: var(--cor4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 350px;
     border: 1px solid var(--cor2);
     border-radius: 10px;
@@ -200,6 +202,21 @@ article.card-mercado h2 {
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+article.card-mercado a {
+    color: var(--cor1);
+    background-color: var(--cor3);
+    font-family: var(--font-arial);
+    font-size: 0.8em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px;
 }
 
 aside.detalhes {
