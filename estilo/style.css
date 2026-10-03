@@ -8,7 +8,7 @@
     --cor1: #ffffff;
     --cor2: #000000;
     --cor3: #008000;
-    --cor4: #8080808b;
+    --cor4: #808080;
     --cor5: #252525;
     --cor6: #4c7d4c;
 
@@ -134,7 +134,7 @@ main.imagem {
 }
 
 main#principal {
-    background: url('../imagens/img_atras/scalebank_negocio.jpg') center top no-repeat;
+    background: url('../imagens/img_atras/scalebank_negocio.jpg') top left no-repeat;
     background-size: cover;
 }
 
