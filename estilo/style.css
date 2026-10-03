@@ -210,6 +210,9 @@ aside.detalhes {
 
 aside.detalhes section.exibicao {
     background-color: var(--cor3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
 }
@@ -221,6 +224,19 @@ section.exibicao div#card-marca {
     align-items: center;
     width: 40%;
     height: 80%;
+}
+
+div#card-marca .scale2 {
+    color: var(--cor3);
+    font-family: var(--font-momo);
+    font-weight: bold;
+}
+
+div#card-marca .scalebank2 {
+    color: var(--cor2);
+    font-family: var(--font-momo);
+    font-size: 2em;
+    font-weight: bold;
 }
 
 footer {
