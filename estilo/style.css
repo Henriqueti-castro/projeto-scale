@@ -209,34 +209,70 @@ aside.detalhes {
 }
 
 aside.detalhes section.exibicao {
-    background-color: var(--cor3);
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
     width: 100%;
     height: 100%;
 }
 
 section.exibicao div#card-marca {
-    background-color: var(--cor1);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 30%;
     height: 80%;
 }
 
-div#card-marca .scale2 {
+div#card-marca span.scale2 {
     color: var(--cor3);
     font-family: var(--font-momo);
     font-weight: bold;
 }
 
-div#card-marca .scalebank2 {
+div#card-marca p.scalebank2 {
     color: var(--cor2);
     font-family: var(--font-momo);
     font-size: 2em;
     font-weight: bold;
+}
+
+section.exibicao div#card-scalebank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+    height: 80%;
+}
+
+div#card-scalebank article.ferramentas {
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+article.ferramentas h2 {
+    color: var(--cor2);
+    font-family: var(--font-arial);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+article.ferramentas nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 1.7em;
+}
+
+article.ferramentas nav a {
+    color: var(--cor2);
+    font-family: var(--font-arial);
+    font-size: 1.2em;
+    text-decoration: none;
 }
 
 footer {
