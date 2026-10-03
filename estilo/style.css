@@ -23,10 +23,6 @@
     position: relative;
 }
 
-html, body {
-    height: 100vh;
-}
-
 header.topo {
     position: sticky;
     top: 0;
@@ -119,17 +115,17 @@ div#entrar a {
 }
 
 main {
-    height: 100%;
+    min-height: 100vh;
     padding-top: 10vh;
     padding-left: 5vw;
     padding-bottom: 5vh;
 }
 
-main.imagem {
+main.principal {
     background-color: var(--cor4);
 }
 
-main#principal {
+main#imagem {
     background: url('../imagens/img_atras/scalebank_negocio.jpg') top left no-repeat;
     background-size: cover;
 }
@@ -191,7 +187,7 @@ section.tipo {
 
 }
 
-section.tipo article#afiliados {
+section.tipo article.card-mercado {
     background-color: var(--cor4);
     width: 350px;
     border: 1px solid var(--cor2);
@@ -199,7 +195,7 @@ section.tipo article#afiliados {
     padding: 20px;
 }
 
-article#afiliados div.repre {
+article.card-mercado div.repre {
     background-color: var(--cor1);
     border: 1px solid var(--cor4);
     border-radius: 10px;
@@ -207,31 +203,7 @@ article#afiliados div.repre {
     margin-bottom: 20px;
 }
 
-article#afiliados h2 {
-    color: var(--cor1);
-    font-family: var(--font-arial);
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-section.tipo article#vendedores {
-    background-color: var(--cor4);
-    width: 350px;
-    border: 1px solid var(--cor2);
-    border-radius: 10px;
-    padding: 20px;
-}
-
-article#vendedores div.repre {
-    background-color: var(--cor1);
-    border: 1px solid var(--cor4);
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-article#vendedores h2 {
+article.card-mercado h2 {
     color: var(--cor1);
     font-family: var(--font-arial);
     font-size: 1.2em;
