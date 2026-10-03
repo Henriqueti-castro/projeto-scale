@@ -265,14 +265,13 @@ section.exibicao div#card-scalebank {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
     width: 60%;
     height: 80%;
 }
 
 div#card-scalebank article.ferramentas {
-    padding: 10px;
-    width: 250px;
+    width: 190px;
     height: 300px;
 }
 
@@ -288,7 +287,7 @@ article.ferramentas nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    line-height: 1.7em;
+    gap: 10px;
 }
 
 article.ferramentas nav a {
