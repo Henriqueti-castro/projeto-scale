@@ -158,3 +158,23 @@ section.propaganda p {
     font-weight: bold;
     line-height: 1.5em;
 }
+
+section.status {
+    background-color: var(--cor5);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+section.status div.dados {
+    color: var(--cor1);
+    font-family: var(--font-goth);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.dados h2 {
+    
+}
