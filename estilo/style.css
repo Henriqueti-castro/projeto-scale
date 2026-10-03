@@ -117,3 +117,20 @@ div#entrar a {
     font-weight: bold;
     text-decoration: none;
 }
+
+section.propaganda {
+    background-color: var(--cor3);
+    width: 50%;
+    min-height: 300px;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+section.propaganda h1 {
+    color: var(--cor1);
+    font-family: var(--font-arial);
+    font-size: 3.5em;
+    width: 500px;
+    margin-bottom: 20px;
+}
