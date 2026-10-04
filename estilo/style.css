@@ -348,8 +348,8 @@ main.principal-dash {
 main.principal-dash aside.nav-lado {
     background-color: var(--cor1);
     padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     width: 300px;
     min-height: 100vh;
 }
@@ -361,12 +361,11 @@ aside.nav-lado div.dash-marca {
 }
 
 aside.nav-lado div#fundo-link {
-    background-color: var(--cor5);
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 350px;
     margin-top: 50px;
-    padding-left: 20px;
 }
 
 div#fundo-link nav {
@@ -374,12 +373,28 @@ div#fundo-link nav {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
+    padding: 10px;
 }
 
 div#fundo-link nav a {
+    position: relative;
     color: var(--cor2);
-    background-color: var(--cor3);
     font-family: var(--font-arial);
     font-weight: bold;
     text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 15px;
+}
+
+div#fundo-link nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    border-radius: 10px;
+    background-color: var(--cor5);
 }
