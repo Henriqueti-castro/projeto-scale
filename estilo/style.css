@@ -340,3 +340,7 @@ nav.rodape a:hover {
 
 /* estilo dashboard */
 
+main.principal-dash {
+    background-color: var(--cor5);
+    min-height: 100vh;
+}
