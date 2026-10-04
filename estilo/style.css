@@ -349,6 +349,37 @@ main.principal-dash aside.nav-lado {
     background-color: var(--cor1);
     padding-top: 20px;
     padding-left: 20px;
+    padding-right: 20px;
     width: 300px;
     min-height: 100vh;
+}
+
+aside.nav-lado div.dash-marca {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+aside.nav-lado div#fundo-link {
+    background-color: var(--cor5);
+    display: flex;
+    align-items: center;
+    height: 350px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+div#fundo-link nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div#fundo-link nav a {
+    color: var(--cor2);
+    background-color: var(--cor3);
+    font-family: var(--font-arial);
+    font-weight: bold;
+    text-decoration: none;
 }
