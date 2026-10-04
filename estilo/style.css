@@ -384,11 +384,19 @@ div#fundo-link nav a {
     font-weight: bold;
     text-decoration: none;
     display: block;
+    border-left: 3px solid var(--cor5);
     width: 100%;
     padding: 15px;
+    transition: transform 0.5s ease;
+}
+
+div#fundo-link nav a > img {
+    width: 16px;
+    height: 16px;
 }
 
 div#fundo-link nav a:hover {
+    transform: scale(1.1, 1.1);
     background-color: var(--cor4);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
