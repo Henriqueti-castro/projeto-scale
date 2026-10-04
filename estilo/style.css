@@ -341,13 +341,15 @@ nav.rodape a:hover {
 /* estilo dashboard */
 
 main.principal-dash {
-    background-color: var(--cor1);
+    background-color: var(--cor6);
+    height: 100vh;
     display: flex;
 }
 
 main.principal-dash aside.nav-lado {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
     z-index: 100;
     background-color: var(--cor1);
     border-right: 1px solid var(--cor4);
@@ -355,7 +357,7 @@ main.principal-dash aside.nav-lado {
     padding-left: 15px;
     padding-right: 15px;
     width: 300px;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 aside.nav-lado div.dash-marca {
@@ -418,13 +420,13 @@ section#dash-conteudo {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: 300px;
 }
 
 header.dash-cabecalho {
     background-color: var(--cor1);
     display: flex;
     align-items: center;
-    height: 60px;
     padding-right: 50px;
     border-bottom: 1px solid var(--cor4);
 }
@@ -449,14 +451,73 @@ header.dash-cabecalho div#usuario > h2 {
 }
 
 section#dash-conteudo div#exibir {
-    background-color: var(--cor1);
-    height: 100%;
+    background-image: linear-gradient(to right, var(--cor5), var(--cor4));
+    flex: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
 div#exibir iframe {
-    background-color: var(--cor4);
+    background-color: var(--cor1);
     width: 100%;
-    min-height: 100%;
-} 
+    height: 100%;
+    min-height: 800px;
+    border: none;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* resumo.html */
+
+header.cabecalho-resumo h1 {
+    color: var(--cor2);
+    font-family: var(--font-arial);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+nav.navegacao-resumo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+
+nav.navegacao-resumo::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--cor4);
+
+}
+
+nav.navegacao-resumo a {
+    color: var(--cor2);
+    font-family: var(--font-arial);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav.navegacao-resumo a:hover {
+    color: var(--cor3);
+    position: relative;
+}
+
+nav.navegacao-resumo a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--cor6);
+}
