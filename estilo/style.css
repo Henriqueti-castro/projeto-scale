@@ -439,38 +439,28 @@ article.ferramentas nav a:hover {
     text-decoration: underline;
 }
 
-footer {
-    background-color: var(--cor1);
-    display: flex;
-    align-items: center;
-    padding-top: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 15px;
+@media (max-width: 600px) {
+    aside.detalhes {
+        padding: 0;
+    }
+
+    aside.detalhes section.exibicao {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    section.exibicao div#card-marca {
+        justify-content: flex-start;
+        padding-left: 10px;
+        width: 100%;
+        height: 100px;
+    }
+
+    div#card-marca p.scalebank2 {
+        font-size: 1.5em;
+    }
 }
 
-footer h3 {
-    color: var(--cor2);
-    font-family: var(--font-momo);
-    font-weight: bold;
-}
-
-footer nav.rodape {
-    margin-left: auto;
-}
-
-nav.rodape a {
-    color: var(--cor2);
-    font-family: var(--font-arial);
-    font-size: 0.8em;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 15px;
-}
-
-nav.rodape a:hover {
-    color: var(--cor4);
-}
 
 /* estilo dashboard */
 
@@ -654,4 +644,52 @@ nav.navegacao-resumo a:hover::after {
     width: 100%;
     height: 3px;
     background-color: var(--cor6);
+}
+
+footer {
+    background-color: var(--cor1);
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+}
+
+footer h3 {
+    color: var(--cor2);
+    font-family: var(--font-momo);
+    font-weight: bold;
+}
+
+footer nav.rodape {
+    margin-left: auto;
+}
+
+nav.rodape a {
+    color: var(--cor2);
+    font-family: var(--font-arial);
+    font-size: 0.8em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav.rodape a:hover {
+    color: var(--cor4);
+}
+
+@media (max-width: 600px) {
+    footer {
+        padding: 0;
+    }
+
+    footer h3 {
+        font-size: 0.8em;
+    }
+
+    nav.rodape a {
+        font-size: 0.7em;
+        padding: 5px;
+    }
 }
