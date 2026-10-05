@@ -451,7 +451,7 @@ header.dash-cabecalho div#usuario > h2 {
 }
 
 section#dash-conteudo div#exibir {
-    background-image: linear-gradient(to right, var(--cor5), var(--cor4));
+    background-color: var(--cor1);
     flex: 1;
     padding-top: 50px;
     padding-bottom: 50px;
