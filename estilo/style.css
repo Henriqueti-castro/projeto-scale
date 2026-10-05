@@ -141,6 +141,16 @@ section.propaganda p {
     font-size: 1.2em;
     font-weight: bold;
     line-height: 1.5em;
+    margin-bottom: 50px;
+}
+
+section.propaganda a {
+    color: var(--cor1);
+    background-color: var(--cor5);
+    font-family: var(--font-arial);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
 }
 
 section.status {
