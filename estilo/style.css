@@ -58,7 +58,6 @@ h1.scalebank {
 header.topo > nav.navegacao {
     display: flex;
     gap: 10px;
-    
 }
 
 nav.navegacao > a {
@@ -114,26 +113,53 @@ div#entrar a {
     text-decoration: none;
 }
 
-#menu-toggle {
-    display: none;
-}
+@media (max-width: 600px) {
+    header.topo {
+        gap: 10px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.menu-icon {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-    cursor: pointer;
-}
+    h1.scalebank {
+        font-size: 0.8em;
+    }
 
-.menu-icon span {
-    display: block;
-    height: 3px;
-    width: 100%;
-    background-color: var(--cor2);
-    border-radius: 3px;
-    transition: 0.3s ease;
+    header.topo div.marca > img {
+        width: 35px;
+        height: 35px;
+    }
+
+    header.topo > nav.navegacao {
+        gap: 0;
+    }
+
+    nav.navegacao > a {
+        font-size: 0.7em;
+        padding: 5px;
+    }
+
+    nav.navegacao > a:hover {
+        color: var(--cor2);
+        background-color: transparent;
+    }
+
+    nav.navegacao > a::after {
+        content: none;
+    }
+
+    header.topo div#entrar {
+        padding: 5px;
+        margin-left: 0;
+    }
+
+    header.topo div#entrar:hover {
+        background-color: var(--cor2);
+    }
+
+    div#entrar a {
+        font-size: 0.9em;
+    }
 }
 
 main.principal .hero-banner{
