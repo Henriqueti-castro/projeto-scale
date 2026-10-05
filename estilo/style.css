@@ -149,8 +149,13 @@ section.propaganda a {
     background-color: var(--cor5);
     font-family: var(--font-arial);
     font-weight: bold;
+    border-radius: 5px;
     text-decoration: none;
     padding: 15px;
+}
+
+section.propaganda a:hover {
+    background-color: var(--cor4);
 }
 
 section.status {
