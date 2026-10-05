@@ -413,7 +413,7 @@ div#card-scalebank article.ferramentas {
 }
 
 article.ferramentas h2 {
-    color: var(--cor2);
+    color: var(--cor5);
     font-family: var(--font-arial);
     font-size: 1.2em;
     font-weight: bold;
@@ -459,8 +459,31 @@ article.ferramentas nav a:hover {
     div#card-marca p.scalebank2 {
         font-size: 1.5em;
     }
-}
 
+    section.exibicao div#card-scalebank {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+    }
+
+    div#card-scalebank article.ferramentas {
+
+        width: 300px;
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    article.ferramentas nav a {
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+
+    article.ferramentas nav a:hover {
+        color: var(--cor2);
+        text-decoration: none;
+    }
+}
 
 /* estilo dashboard */
 
@@ -681,7 +704,7 @@ nav.rodape a:hover {
 
 @media (max-width: 600px) {
     footer {
-        padding: 0;
+        padding: 10px;
     }
 
     footer h3 {
@@ -691,5 +714,9 @@ nav.rodape a:hover {
     nav.rodape a {
         font-size: 0.7em;
         padding: 5px;
+    }
+
+    nav.rodape a:hover {
+        color: var(--cor2);
     }
 }
