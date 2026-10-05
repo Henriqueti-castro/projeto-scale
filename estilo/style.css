@@ -114,6 +114,28 @@ div#entrar a {
     text-decoration: none;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: var(--cor2);
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
 main.principal .hero-banner{
     min-height: 100vh;
     background: var(--cor4) url('../imagens/img_atras/scalebank_negocio.jpg') top center no-repeat;
