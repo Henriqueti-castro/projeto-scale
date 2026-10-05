@@ -347,6 +347,18 @@ article.card-mercado a:hover {
     transform: translateY(-5%);
 }
 
+@media (max-width: 600px) {
+    section.tipo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article.card-mercado a:hover {
+        background-color: var(--cor6);
+        transform: none;
+    }
+}
+
 aside.detalhes {
     background-color: var(--cor4);
     display: flex;
