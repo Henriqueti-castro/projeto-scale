@@ -283,6 +283,10 @@ section.status h2 {
         padding-bottom: 20px;
         width: 100%;
     }
+
+    section.status div#linha {
+        border-bottom: 1px solid var(--cor4);
+    }
 }
 
 section.tipo {
