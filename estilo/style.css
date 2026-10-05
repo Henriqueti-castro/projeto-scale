@@ -266,6 +266,25 @@ section.status h2 {
     padding-bottom: 10px;
 }
 
+@media (max-width: 600px) {
+    section.status {
+        flex-direction: column;
+        gap: 0;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    section.status div.dados {
+        font-size: 0.8em;
+        border-right: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+}
+
 section.tipo {
     color: var(--cor1);
     font-family: var(--font-arial);
