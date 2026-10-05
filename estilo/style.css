@@ -453,7 +453,7 @@ header.dash-cabecalho div#usuario > h2 {
 
 section#dash-conteudo div#exibir {
     background-color: var(--cor1);
-    box-shadow: inset 10px 0px 10px -10px var(--cor5);
+    box-shadow: inset 10px 0px 10px -10px var(--cor4);
     flex: 1;
     padding-top: 50px;
     padding-bottom: 50px;
