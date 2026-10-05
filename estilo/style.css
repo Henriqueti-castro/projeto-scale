@@ -479,8 +479,7 @@ section#dash-conteudo div#exibir {
 div#exibir iframe {
     background-color: var(--cor1);
     width: 100%;
-    height: 100%;
-    min-height: 800px;
+    min-height: 650px;
     border: none;
     padding-top: 50px;
     padding-left: 20px;
