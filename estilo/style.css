@@ -709,6 +709,7 @@ nav.rodape a:hover {
 @media (max-width: 600px) {
     footer {
         padding: 10px;
+        padding-left: 5px;
         padding-right: 0;
     }
 
