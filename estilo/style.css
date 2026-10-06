@@ -119,7 +119,7 @@ div#entrar a {
 
 @media (max-width: 600px) {
     header.topo {
-        gap: 10px;
+        gap: 0px;
         padding: 5px;
         padding-left: 10px;
         padding-right: 10px;
