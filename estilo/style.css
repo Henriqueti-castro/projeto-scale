@@ -780,6 +780,25 @@ nav.navegacao-resumo a:hover::after {
     }
 }
 
+/* mercado.html */
+
+.principal-mer .navegacao-mer {
+    background-color: var(--cor1);
+    box-shadow: inset 0px -1px 1px var(--cor4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.navegacao-mer a {
+    color: var(--cor3);
+    font-family: var(--font-arial);
+    font-weight: bold;
+    text-decoration: none;
+}
+
 footer {
     background-color: var(--cor1);
     display: flex;
