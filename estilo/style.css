@@ -11,6 +11,7 @@
     --cor4: #808080;
     --cor5: #252525;
     --cor6: #002e00;
+    --cor7: #6fc66f;
 
     --font-momo: 'Momo Trust Display', cursive;
     --font-goth: 'Science Gothic', cursive;
@@ -789,15 +790,22 @@ nav.navegacao-resumo a:hover::after {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .navegacao-mer a {
     color: var(--cor3);
     font-family: var(--font-arial);
+    font-size: 0.8em;
     font-weight: bold;
     text-decoration: none;
+    border-radius: 10px;
     padding: 15px;
+}
+
+.navegacao-mer a:hover {
+    color: var(--cor6);
+    background-color: var(--cor7);
 }
 
 .navegacao-mer span {
