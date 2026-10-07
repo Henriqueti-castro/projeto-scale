@@ -23,10 +23,6 @@
     box-sizing: border-box;
 }
 
-body {
-    cursor: pointer;
-}
-
 header.topo {
     position: sticky;
     top: 0;
@@ -672,6 +668,10 @@ div#exibir iframe {
 @media (max-width: 600px) {
 
     section#dash-conteudo {
+        margin-left: 100px;
+    }
+
+    section#dash-conteudo {
         margin-left: 60px;
     }
 
@@ -690,7 +690,8 @@ div#exibir iframe {
     }
 
     section#dash-conteudo div#exibir {
-        padding-top: 0;padding-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
         padding-right: 0;
     }
 
