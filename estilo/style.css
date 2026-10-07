@@ -854,7 +854,12 @@ div.produto-link a:hover {
     color: var(--cor3);
 }
 
-div.produto-link nav.categoria-link a {
+div.produto-link nav.categoria-link {
+    display: flex;
+    align-items: center;
+}
+
+nav.categoria-link a {
     color: var(--cor2);
     font-family: var(--font-arial);
     font-size: 0.9em;
@@ -862,8 +867,17 @@ div.produto-link nav.categoria-link a {
     text-decoration: none;
 }
 
-div.produto-link nav.categoria-link a:hover {
+nav.categoria-link a:hover {
     color: var(--cor3);
+}
+
+nav.categoria-link span {
+    display: block;
+    background-color: var(--cor2);
+    width: 1px;
+    height: 12px;
+    margin: 5px;
+    transform: rotate(20deg);
 }
 
 article.produtos-dados nav.produto-info {
