@@ -797,6 +797,14 @@ nav.navegacao-resumo a:hover::after {
     font-family: var(--font-arial);
     font-weight: bold;
     text-decoration: none;
+    padding: 15px;
+}
+
+.navegacao-mer span {
+    display: block;
+    background-color: var(--cor2);
+    width: 1px;
+    height: 50px;
 }
 
 footer {
