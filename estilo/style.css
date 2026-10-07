@@ -591,9 +591,21 @@ div#fundo-link nav a > img {
     }
 
     div#fundo-link nav a {
+        background-color: var(--cor4);
         font-size: 0.5em;
         text-align: center;
+        border-left: 1px solid var(--cor5);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
         padding: 10px;
+    }
+
+    div#fundo-link nav a:hover {
+        background-color: var(--cor4);
+    }
+
+    div#fundo-link nav a:hover::after {
+        content: none;
     }
 
     div#fundo-link nav a > img {
