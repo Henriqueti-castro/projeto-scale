@@ -571,7 +571,19 @@ div#fundo-link nav a > img {
     main.principal-dash aside.nav-lado {
         padding-left: 5px;
         padding-right: 5px;
-        width: 120px;
+        width: 100px;
+    }
+
+    aside.nav-lado div.dash-marca {
+        justify-content: center;
+    }
+
+    div.dash-marca h1 {
+        font-size: 0.6em;
+    }
+
+    div.dash-marca img {
+        width: 40px;
     }
 
     div#fundo-link nav {
@@ -579,7 +591,8 @@ div#fundo-link nav a > img {
     }
 
     div#fundo-link nav a {
-        font-size: 0.7em;
+        font-size: 0.5em;
+        text-align: center;
         padding: 10px;
     }
 
