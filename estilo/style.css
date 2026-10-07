@@ -926,6 +926,46 @@ article.produto-desc p {
     text-align: left;
 }
 
+section.produto article.produto-compra {
+    border-top: 1px solid var(--cor4);
+    color: var(--cor2);
+    font-family: var(--font-arial);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+article.produto-compra div.conversao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 1px solid var(--cor4);
+    padding: 15px;
+}
+
+div.conversao div.produto-valor {
+    display: flex;
+    align-items: center;
+}
+
+div.produto-valor span {
+    display: block;
+    background-color: var(--cor2);
+    width: 1px;
+    height: 40px;
+}
+
+div.produto-valor div.valor {
+    line-height: 1.7em;
+    padding: 10px;
+}
+
+div.valor h4 {
+    font-size: 0.8em;
+}
+
 footer {
     background-color: var(--cor1);
     display: flex;
