@@ -815,7 +815,23 @@ nav.navegacao-mer span {
     height: 50px;
 }
 
-section.produto
+section.produto {
+    border: 1px solid var(--cor4);
+    border-radius: 10px;
+    width: 1000px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+section.produto article.produtos-dados {
+    display: flex;
+    align-items: center;
+}
+
+article.produtos-dados img {
+    width: 150px;
+    height: 150px;
+}
 
 footer {
     background-color: var(--cor1);
