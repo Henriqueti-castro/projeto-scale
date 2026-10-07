@@ -622,7 +622,7 @@ section#dash-conteudo {
 }
 
 header.dash-cabecalho {
-    background-color: var(--cor1);
+    background-color: var(--cor5);
     display: flex;
     align-items: center;
     padding: 10px;
