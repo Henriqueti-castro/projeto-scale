@@ -697,6 +697,7 @@ div#exibir iframe {
     div#exibir iframe {
         background-color: var(--cor1);
         padding-top: 25px;
+        padding-right: 10px;
     }
 }
 
