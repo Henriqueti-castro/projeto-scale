@@ -86,15 +86,15 @@ header.topo div#entrar {
     transition: background-color 0.2s ease;
 }
 
-header.topo div#entrar:hover {
-    background-color: var(--cor6);
-}
-
 div#entrar a {
     color: var(--cor6);
     font-family: var(--font-arial);
     font-weight: bold;
     text-decoration: none;
+}
+
+header.topo div#entrar:hover{
+    background-color: var(--cor6);
 }
 
 div#entrar a:hover {
