@@ -62,7 +62,7 @@ header.topo > nav.navegacao {
 }
 
 nav.navegacao > a {
-    color: var(--cor2);
+    color: var(--cor3);
     font-family: var(--font-arial);
     font-weight: bold;
     text-decoration: none;
@@ -70,13 +70,13 @@ nav.navegacao > a {
 }
 
 nav.navegacao > a:hover {
-    color: var(--cor1);
-    background-color: var(--cor4);
+    color: var(--cor6);
+    background-color: var(--cor7);
     border-radius: 10px;
 }
 
 header.topo div#entrar {
-    background-color: black;
+    background-color: var(--cor7);
     text-align: center;
     display: block;
     border-radius: 5px;
@@ -87,14 +87,18 @@ header.topo div#entrar {
 }
 
 header.topo div#entrar:hover {
-    background-color: var(--cor5);
+    background-color: var(--cor6);
 }
 
 div#entrar a {
-    color: var(--cor1);
+    color: var(--cor6);
     font-family: var(--font-arial);
     font-weight: bold;
     text-decoration: none;
+}
+
+div#entrar a:hover {
+    color: var(--cor7);
 }
 
 @media (max-width: 600px) {
