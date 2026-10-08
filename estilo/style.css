@@ -776,6 +776,11 @@ main.principal-mer div#mercado {
     gap: 20px;
 }
 
+div#mercado div#colum-produto {
+    display: flex;
+    flex-direction: column;
+}
+
 main.principal-mer nav.navegacao-mer {
     background-color: var(--cor1);
     box-shadow: inset 0px -1px 1px var(--cor4);
