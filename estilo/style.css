@@ -822,7 +822,6 @@ nav.navegacao-mer span {
 }
 
 aside.categoria {
-    background-color: var(--cor4);
     margin-top: 50px;
     display: block;
     width: 300px;
@@ -839,6 +838,19 @@ aside.categoria nav.navegacao-cate {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    line-height: 2em;
+    padding-top: 20px;
+}
+
+nav.navegacao-cate a {
+    color: var(--cor5);
+    font-family: var(--font-arial);
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+nav.navegacao-cate a:hover {
+    color: var(--cor7);
 }
 
 section.produto {
