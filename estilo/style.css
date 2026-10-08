@@ -783,10 +783,6 @@ nav.navegacao-resumo a:hover::after {
 
 /* mercado.html */
 
-main.principal-mer {
-    display: flex;
-}
-
 main.principal-mer nav.navegacao-mer {
     background-color: var(--cor1);
     box-shadow: inset 0px -1px 1px var(--cor4);
@@ -819,7 +815,18 @@ nav.navegacao-mer span {
     height: 50px;
 }
 
+aside.categoria {
+    background-color: var(--cor1);
+    display: block;
+    width: 300px;
+    height: 100vh;
+}
 
+aside.categoria nav.navegacao-cate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
 section.produto {
     display: flex;
