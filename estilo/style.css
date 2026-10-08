@@ -783,6 +783,12 @@ nav.navegacao-resumo a:hover::after {
 
 /* mercado.html */
 
+main.principal-mer div#mercado {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 main.principal-mer nav.navegacao-mer {
     background-color: var(--cor1);
     box-shadow: inset 0px -1px 1px var(--cor4);
@@ -816,10 +822,11 @@ nav.navegacao-mer span {
 }
 
 aside.categoria {
-    background-color: var(--cor1);
+    margin-top: 50px;
     display: block;
     width: 300px;
-    height: 100vh;
+    height: 500px;
+    padding: 20px;
 }
 
 aside.categoria nav.navegacao-cate {
