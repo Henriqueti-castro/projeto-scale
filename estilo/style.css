@@ -804,6 +804,11 @@ nav.navegacao-mer span {
 }
 
 @media (max-width: 600px) {
+
+    main.principal-mer div#mercado {
+        gap: 0px;
+    }
+
     main.principal-mer nav.navegacao-mer {
         gap: 5px;
         padding: 5px;
