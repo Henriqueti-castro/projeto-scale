@@ -62,7 +62,6 @@ header.topo > nav.navegacao {
 }
 
 nav.navegacao > a {
-    position: relative;
     color: var(--cor2);
     font-family: var(--font-arial);
     font-weight: bold;
@@ -73,23 +72,7 @@ nav.navegacao > a {
 nav.navegacao > a:hover {
     color: var(--cor1);
     background-color: var(--cor4);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-nav.navegacao > a::after {
-    position: absolute;
-    content: '';
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 3px;
-    background-color: var(--cor5);
-    transition: width 0.5s ease;
-}
-
-nav.navegacao > a:hover::after {
-    width: 100%;
+    border-radius: 10px;
 }
 
 header.topo div#entrar {
