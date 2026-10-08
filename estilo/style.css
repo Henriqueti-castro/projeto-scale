@@ -827,7 +827,12 @@ aside.categoria {
     display: block;
     width: 300px;
     height: 500px;
-    padding: 20px;
+}
+
+aside.categoria h2 {
+    color: var(--cor2);
+    font-family: var(--font-arial);
+    font-size: 1.2em;
 }
 
 aside.categoria nav.navegacao-cate {
