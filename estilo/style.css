@@ -822,6 +822,7 @@ nav.navegacao-mer span {
 }
 
 aside.categoria {
+    background-color: var(--cor4);
     margin-top: 50px;
     display: block;
     width: 300px;
