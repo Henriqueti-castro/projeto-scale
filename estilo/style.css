@@ -72,12 +72,12 @@ nav.navegacao > a {
 nav.navegacao > a:hover {
     color: var(--cor6);
     background-color: var(--cor7);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 header.topo a#entrar {
-    color: var(--cor6);
-    background-color: var(--cor7);
+    color: var(--cor7);
+    background-color: var(--cor6);
     font-family: var(--font-arial);
     font-weight: bold;
     text-decoration: none;
@@ -85,6 +85,11 @@ header.topo a#entrar {
     border-radius: 5px;
     width: 80px;
     padding: 8px;
+}
+
+header.topo a#entrar:hover {
+    color: var(--cor6);
+    background-color: var(--cor7);
 }
 
 @media (max-width: 600px) {
