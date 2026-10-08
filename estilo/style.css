@@ -803,6 +803,28 @@ nav.navegacao-mer span {
     height: 50px;
 }
 
+@media (max-width: 600px) {
+    main.principal-mer nav.navegacao-mer {
+        gap: 5px;
+        padding: 5px;
+    }
+
+    nav.navegacao-mer a {
+        font-size: 0.5em;
+        border-radius: 0px;
+        padding: 5px;
+    }
+
+    nav.navegacao-mer a:hover {
+        color: var(--cor3);
+        background-color: transparent;
+    }
+
+    nav.navegacao-mer span {
+        display: none;
+    }
+}
+
 aside.categoria {
     margin-top: 50px;
     display: block;
