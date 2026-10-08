@@ -119,7 +119,7 @@ header.topo a#entrar:hover {
     }
 
     nav.navegacao > a:hover {
-        color: var(--cor2);
+        color: var(--cor3);
         background-color: transparent;
     }
 
@@ -127,17 +127,16 @@ header.topo a#entrar:hover {
         content: none;
     }
 
-    header.topo div#entrar {
+    header.topo a#entrar {
+        font-size: 0.7em;
+        text-align: center;
+        width: 50px;
         padding: 5px;
-        margin-left: 0;
     }
 
-    header.topo div#entrar:hover {
-        background-color: var(--cor2);
-    }
-
-    div#entrar a {
-        font-size: 0.9em;
+    header.topo a#entrar:hover {
+        color: var(--cor7);
+        background-color: var(--cor6);
     }
 }
 
