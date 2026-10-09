@@ -1129,6 +1129,10 @@ div.valor h4 {
         font-size: 0.7em;
     }
 
+    div.conversao p {
+        font-size: 0.4em;
+    }
+
     div.produto-valor span {
         height: 20px;
     }
