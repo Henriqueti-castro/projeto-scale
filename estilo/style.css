@@ -806,8 +806,9 @@ nav.navegacao-mer span {
 @media (max-width: 600px) {
 
     main.principal-mer div#mercado {
-        justify-content: flex-start;
+        align-items: center;
         gap: 0px;
+        flex-direction: column;
     }
 
     main.principal-mer nav.navegacao-mer {
@@ -1030,6 +1031,8 @@ div.valor h4 {
         margin-top: 20px;
         padding-left: 10px;
         padding-right: 10px;
+        width: 90%;
+        height: 100px;
     }
 
     aside.categoria h2 {
@@ -1037,13 +1040,17 @@ div.valor h4 {
     }
 
     aside.categoria nav.navegacao-cate {
+        flex-direction: row;
+        align-items: center;
         line-height: 1em;
+        flex-wrap: wrap;
+        width: 100;
+        gap: 5px;
     }
 
     nav.navegacao-cate a {
         font-size: 0.2em;
         border-bottom: 1px solid var(--cor7);
-        width: 100%;
     }
 
     nav.navegacao-cate a:hover {
