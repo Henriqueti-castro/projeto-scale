@@ -807,7 +807,7 @@ nav.navegacao-mer span {
 
     main.principal-mer div#mercado {
         justify-content: flex-start;
-        gap: 5px;
+        gap: 0px;
     }
 
     main.principal-mer nav.navegacao-mer {
@@ -1054,7 +1054,7 @@ div.valor h4 {
         margin-top: 20px;
         gap: 20px;
         padding: 10px;
-        width: 300px;
+        width: 350px;
     }
 
     section.produto article.produtos-dados {
