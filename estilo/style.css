@@ -806,7 +806,7 @@ nav.navegacao-mer span {
 @media (max-width: 600px) {
 
     main.principal-mer div#mercado {
-        justify-content: center;
+        justify-content: flex-start;
         gap: 5px;
     }
 
@@ -1054,7 +1054,7 @@ div.valor h4 {
         margin-top: 20px;
         gap: 20px;
         padding: 10px;
-        width: 350px;
+        width: 360px;
     }
 
     section.produto article.produtos-dados {
@@ -1101,6 +1101,19 @@ div.valor h4 {
     nav.produto-info a:hover {
         color: var(--cor6);
         background-color: var(--cor7);
+    }
+
+    article.produto-desc {
+        width: 280px;
+    }
+
+    article.produto-desc h2 {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    article.produto-desc p {
+        font-size: 0.6em;
     }
 }
 
