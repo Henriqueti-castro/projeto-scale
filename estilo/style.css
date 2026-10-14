@@ -463,6 +463,23 @@ article.ferramentas nav a:hover {
     }
 }
 
+div#nota {
+    background-color: var(--cor5);
+    padding: 20px;
+    padding-left: 100px;
+}
+
+div#nota p {
+    color: var(--cor1);
+    font-family: var(--font-arial);
+}
+
+div#nota p > span {
+    color: var(--cor7);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 /* estilo dashboard */
 
 main.principal-dash {
