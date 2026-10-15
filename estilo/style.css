@@ -494,6 +494,7 @@ div#nota p > span {
     div#nota p {
         font-size: 0.8em;
         text-align: justify;
+        line-height: 1.7em;
     }
 }
 
