@@ -470,13 +470,15 @@ article.ferramentas nav a:hover {
 
 div#nota {
     background-color: var(--cor5);
-    padding: 20px;
-    padding-left: 100px;
+    padding: 10px;
+    padding-left: 10px;
 }
 
 div#nota p {
     color: var(--cor1);
     font-family: var(--font-arial);
+    font-size: 0.7em;
+    text-align: justify;
 }
 
 div#nota p > span {
