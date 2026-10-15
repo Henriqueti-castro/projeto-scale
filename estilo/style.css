@@ -485,6 +485,18 @@ div#nota p > span {
     text-transform: uppercase;
 }
 
+@media (max-width: 600px) {
+    div#nota {
+        padding: 10px;
+        padding-left: 10px;
+    }
+
+    div#nota p {
+        font-size: 0.8em;
+        text-align: justify;
+    }
+}
+
 /* estilo dashboard */
 
 main.principal-dash {
